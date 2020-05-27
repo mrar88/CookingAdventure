@@ -3,29 +3,75 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>iNDEX pAGE</title>
+<link href="script/css/styles.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+<title>Welcome to Cooking Adventure Website</title>
 </head>
-<script type="text/javascript">
-</script>
 <body>
-	<div class="logo">
-		Logo
-		<img alt="adventurer" src="C:\Users\mrar_\Documents\Cooking_Adventure\00_images"/>		
-	</div>
+	<script src="script/javascript/interface.js"></script>
+	<div class="logo"></div>
 	<div class="banner">
-		Banner		
+		<img alt="adventurer"
+			src="C:\Users\mrar_\git\CookingAdventure\Images\banner.jpg" />
 	</div>
-	<div class="menu_list">
-		Menu
+	<div class="navigation_list">
+		<header>
+			<nav class="w3-bar w3-black">
+				<ul>
+					<li><a href="#home" class="w3-button w3-bar-item">Home</a></li>
+					<li><a href="#category" class="w3-button w3-bar-item">Category</a></li>
+					<li><a href="#cookingmethod" class="w3-button w3-bar-item">Cooking Styles/Method</a></li>
+					<li><a href="upload" class="w3-button w3-bar-item">Upload</a></li>
+					<li><a href="search" class="w3-button w3-bar-item">Search</a></li>
+				</ul>
+			</nav>
+		</header>
+	</div>
+	<!-- Slideshow container -->
+	<span>This Week Recommendation</span>
+	<div class="slideshow-container">
+		<!-- Full-width images with number and caption text -->
+		<div class="mySlides fade">
+			<div class="numbertext">1 / 3</div>
+			<img
+				src="C:\Users\mrar_\Documents\Cooking_Adventure\00_images\banner.jpg"
+				style="width: 100%">
+			<div class="text">Caption Text</div>
+		</div>
+
+		<div class="mySlides fade">
+			<div class="numbertext">2 / 3</div>
+			<img
+				src="C:\Users\mrar_\Documents\Cooking_Adventure\00_images\banner.jpg"
+				style="width: 100%">
+			<div class="text">Caption Two</div>
+		</div>
+
+		<div class="mySlides fade">
+			<div class="numbertext">3 / 3</div>
+			<img
+				src="C:\Users\mrar_\Documents\Cooking_Adventure\00_images\banner.jpg"
+				style="width: 100%">
+			<div class="text">Caption Three</div>
+		</div>
+
+		<!-- Next and previous buttons -->
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a> <a class="next"
+			onclick="plusSlides(1)">&#10095;</a>
+	</div>
+	<br>
+
+	<!-- The dots/circles -->
+	<div style="text-align: center">
+		<span class="dot" onclick="currentSlide(1)"></span> <span class="dot"
+			onclick="currentSlide(2)"></span> <span class="dot"
+			onclick="currentSlide(3)"></span>
 	</div>
 	<div class="body_contents1">
-		Contents
+		<div class="item_img"></div>
+		<div class="item_content"></div>
 	</div>
-	<div class="body_contents2">
-		Contents2
-	</div>
-	<div class="footer">
-		Footer
-	</div>
+	<div class="body_contents2">Contents2</div>
+	<div class="footer">Footer</div>
 </body>
 </html>
